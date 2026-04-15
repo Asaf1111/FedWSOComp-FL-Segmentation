@@ -1,0 +1,2243 @@
+[2025-07-08 14:27:56,938] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:01,970] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 14:28:04,380] [INFO] [DEBUG] Loaded uncompressed weights.
+[2025-07-08 14:28:04,677] [ERROR] [MODEL PARAMETER ERROR] Layer model.0.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,678] [ERROR] [MODEL PARAMETER ERROR] Layer model.0.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,678] [ERROR] [MODEL PARAMETER ERROR] Layer model.0.conv.unit1.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,679] [ERROR] [MODEL PARAMETER ERROR] Layer model.0.conv.unit1.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,679] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.0.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,679] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.0.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,680] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.0.conv.unit1.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,680] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.0.conv.unit1.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,681] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.0.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,681] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.0.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,681] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.0.conv.unit1.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,681] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.0.conv.unit1.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,771] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.0.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,771] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.0.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,771] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.0.conv.unit1.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,772] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.0.conv.unit1.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,772] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,772] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,773] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit1.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,773] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit1.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,773] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.2.0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,774] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.2.0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,774] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.2.1.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,774] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.2.1.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,775] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.2.0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,775] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.2.0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,775] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.2.1.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,775] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.2.1.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,776] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.2.0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,776] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.2.0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:04,776] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.2.1.conv.unit0.adn.N.weight corrupted: mean=1.0, std=0.0
+[2025-07-08 14:28:04,776] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.2.1.conv.unit0.adn.N.bias corrupted: mean=0.0, std=0.0
+[2025-07-08 14:28:56,103] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:56,449] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:56,493] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:56,617] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:56,696] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:56,775] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:57,181] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:28:57,203] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:01,375] [INFO] [TRAIN] Epoch 1 Loss: 0.9672
+[2025-07-08 14:30:43,572] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:44,391] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:44,394] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:45,016] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:45,296] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:45,312] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:45,516] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:30:45,600] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:31:48,244] [INFO] [TRAIN] Epoch 2 Loss: 0.9630
+[2025-07-08 14:32:16,578] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:32:18,314] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:32:19,102] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:32:20,970] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:32:20,982] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:32:23,800] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:32:28,017] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:32:29,694] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:25,878] [INFO] [TRAIN] Epoch 3 Loss: 0.9621
+[2025-07-08 14:33:55,173] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:55,783] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:58,312] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:58,511] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:58,575] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:59,014] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:59,278] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:33:59,379] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:34:58,275] [INFO] [TRAIN] Epoch 4 Loss: 0.9614
+[2025-07-08 14:35:22,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:35:23,914] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:35:25,790] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:35:26,896] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:35:26,991] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:35:26,999] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:35:26,999] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:35:27,000] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:36:31,834] [INFO] [TRAIN] Epoch 5 Loss: 0.9610
+[2025-07-08 14:36:31,837] [INFO] [FIT] Local training finished. Avg Loss: 0.9629
+[2025-07-08 14:36:59,270] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:00,070] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:00,805] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:00,896] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:00,896] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:00,918] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:00,989] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:00,999] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:37:05,084] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:05,141] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:05,577] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:05,718] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:05,878] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:05,934] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:06,078] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:06,277] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:07,827] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:07,882] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:37:10,737] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 14:38:08,983] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 14:38:11,879] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 14:38:56,457] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:38:59,974] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:39:00,717] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:39:00,984] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:39:00,996] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:39:01,109] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:39:01,129] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:39:01,171] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:39:03,410] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:04,532] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:04,705] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:05,170] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:05,227] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:05,283] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:05,370] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:05,428] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:06,128] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:07,055] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:39:09,926] [INFO] [EVALUATE] Dice WT: 0.0908
+[2025-07-08 14:39:11,948] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 14:39:13,980] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 14:40:03,334] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:40:03,766] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:40:03,929] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:40:03,961] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:40:04,004] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:40:04,344] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:40:04,514] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:40:04,597] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:10,217] [INFO] [TRAIN] Epoch 1 Loss: 0.9612
+[2025-07-08 14:41:41,578] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:42,289] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:42,310] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:43,389] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:43,389] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:43,411] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:43,470] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:41:43,499] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:42:44,890] [INFO] [TRAIN] Epoch 2 Loss: 0.9606
+[2025-07-08 14:43:30,898] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:43:30,989] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:43:30,990] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:43:31,098] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:43:31,167] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:43:31,285] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:43:31,904] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:43:32,071] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:44:38,368] [INFO] [TRAIN] Epoch 3 Loss: 0.9601
+[2025-07-08 14:45:12,629] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:45:12,726] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:45:12,913] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:45:12,976] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:45:13,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:45:14,270] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:45:14,283] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:45:16,271] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:19,571] [INFO] [TRAIN] Epoch 4 Loss: 0.9597
+[2025-07-08 14:46:53,115] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:53,177] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:55,290] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:55,574] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:55,602] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:55,709] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:55,717] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:46:55,771] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:47:55,378] [INFO] [TRAIN] Epoch 5 Loss: 0.9592
+[2025-07-08 14:47:55,380] [INFO] [FIT] Local training finished. Avg Loss: 0.9602
+[2025-07-08 14:48:24,643] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:25,880] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:27,998] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:28,271] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:28,319] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:28,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:28,488] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:28,504] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:48:33,040] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:33,118] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:33,176] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:33,232] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:33,287] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:33,342] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:33,418] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:33,477] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:35,686] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:35,742] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:48:39,252] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 14:49:37,893] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 14:49:41,874] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 14:50:27,412] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:27,446] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:29,682] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:30,038] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:30,250] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:30,492] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:30,500] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:30,514] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:50:33,320] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:33,694] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:33,753] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:33,878] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:33,932] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:33,987] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:34,044] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:34,101] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:35,362] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:35,696] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 14:50:38,443] [INFO] [EVALUATE] Dice WT: 0.2837
+[2025-07-08 14:50:41,239] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 14:50:44,271] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 14:51:36,034] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:51:36,280] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:51:36,691] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:51:36,917] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:51:37,202] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:51:37,274] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:51:37,474] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:51:37,477] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:52:42,323] [INFO] [TRAIN] Epoch 1 Loss: 0.9600
+[2025-07-08 14:53:26,898] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:53:26,900] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:53:26,997] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:53:27,021] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:53:27,072] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:53:27,211] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:53:27,285] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:53:28,087] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:54:31,330] [INFO] [TRAIN] Epoch 2 Loss: 0.9593
+[2025-07-08 14:55:14,841] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:55:14,842] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:55:14,894] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:55:14,970] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:55:14,977] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:55:15,280] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:55:15,514] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:55:15,514] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:16,837] [INFO] [TRAIN] Epoch 3 Loss: 0.9588
+[2025-07-08 14:56:53,609] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:54,015] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:54,122] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:54,278] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:54,317] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:55,179] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:56,096] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:56:56,207] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:57:55,904] [INFO] [TRAIN] Epoch 4 Loss: 0.9582
+[2025-07-08 14:58:22,089] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:58:23,681] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:58:24,779] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:58:27,481] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:58:27,788] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:58:27,885] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:58:27,890] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:58:28,105] [INFO] Model initialized on device: cuda:0
+[2025-07-08 14:59:29,136] [INFO] [TRAIN] Epoch 5 Loss: 0.9578
+[2025-07-08 14:59:29,138] [INFO] [FIT] Local training finished. Avg Loss: 0.9588
+[2025-07-08 14:59:57,705] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:00,470] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:00,493] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:00,573] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:00,637] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:00,974] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:01,332] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:01,383] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:01,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:00:04,613] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:04,675] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:04,732] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:04,922] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:04,980] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:05,036] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:05,093] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:05,150] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:06,750] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:00:09,507] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 15:00:56,950] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 15:01:00,382] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:01:48,604] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:48,882] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:49,156] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:50,315] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:50,872] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:50,889] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:51,182] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:51,281] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:01:51,879] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:55,322] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:55,445] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:55,559] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:55,629] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:55,749] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:55,960] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:56,185] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:56,374] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:01:57,078] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:02:00,450] [INFO] [EVALUATE] Dice WT: 0.3758
+[2025-07-08 15:02:05,272] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 15:02:08,583] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:02:08,591] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit1.conv.bias corrupted: mean=1.2069525823221738e-08, std=3.498426224268769e-07
+[2025-07-08 15:02:55,234] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:02:55,236] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:02:55,330] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:02:55,481] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:02:55,689] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:02:56,096] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:02:56,437] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:02:56,941] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:03:56,762] [INFO] [TRAIN] Epoch 1 Loss: 0.9587
+[2025-07-08 15:04:26,399] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:04:27,276] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:04:30,477] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:04:30,715] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:04:31,075] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:04:31,307] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:04:31,477] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:04:31,496] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:05:29,779] [INFO] [TRAIN] Epoch 2 Loss: 0.9577
+[2025-07-08 15:05:54,390] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:05:56,202] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:05:57,822] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:06:00,574] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:06:00,596] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:06:00,688] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:06:00,874] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:06:00,874] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:00,276] [INFO] [TRAIN] Epoch 3 Loss: 0.9572
+[2025-07-08 15:07:25,286] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:26,575] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:29,770] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:29,911] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:30,019] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:30,274] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:30,281] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:07:30,297] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:08:31,977] [INFO] [TRAIN] Epoch 4 Loss: 0.9565
+[2025-07-08 15:08:58,184] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:08:59,826] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:09:00,221] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:09:00,977] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:09:01,580] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:09:01,587] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:09:01,671] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:09:01,675] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:02,832] [INFO] [TRAIN] Epoch 5 Loss: 0.9559
+[2025-07-08 15:10:02,833] [INFO] [FIT] Local training finished. Avg Loss: 0.9572
+[2025-07-08 15:10:27,073] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:27,586] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:27,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:29,901] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:30,091] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:30,135] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:30,187] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:30,577] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:10:31,578] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:33,910] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:34,277] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:34,332] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:34,877] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:34,932] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:34,987] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:35,042] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:35,118] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:37,261] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:10:40,322] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 15:11:36,019] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 15:11:38,974] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:12:30,330] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:31,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:31,583] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:31,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:31,779] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:31,781] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:31,791] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:31,795] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:12:37,066] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:37,287] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:37,511] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:37,744] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:37,930] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:38,051] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:38,174] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:38,299] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:39,089] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:39,260] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:12:44,320] [INFO] [EVALUATE] Dice WT: 0.4616
+[2025-07-08 15:12:48,181] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 15:12:51,980] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:12:51,988] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit0.conv.bias corrupted: mean=-7.3696355684660375e-09, std=2.6757413706945954e-07
+[2025-07-08 15:12:51,988] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit1.conv.bias corrupted: mean=2.7802565583101568e-08, std=3.865858104745712e-07
+[2025-07-08 15:13:41,399] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:13:41,519] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:13:42,089] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:13:42,500] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:13:42,501] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:13:43,100] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:13:43,292] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:13:43,802] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:14:49,882] [INFO] [TRAIN] Epoch 1 Loss: 0.9568
+[2025-07-08 15:15:18,594] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:15:21,822] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:15:24,195] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:15:26,002] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:15:26,044] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:15:26,071] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:15:26,151] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:15:26,215] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:24,488] [INFO] [TRAIN] Epoch 2 Loss: 0.9558
+[2025-07-08 15:16:48,275] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:50,992] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:51,505] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:51,608] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:52,792] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:54,295] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:54,370] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:16:54,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:17:50,903] [INFO] [TRAIN] Epoch 3 Loss: 0.9549
+[2025-07-08 15:18:15,215] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:18:16,384] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:18:16,885] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:18:19,875] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:18:20,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:18:20,279] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:18:20,313] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:18:20,380] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:18,978] [INFO] [TRAIN] Epoch 4 Loss: 0.9540
+[2025-07-08 15:19:43,598] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:43,873] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:45,875] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:48,001] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:48,017] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:48,283] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:48,283] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:19:48,375] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:20:45,475] [INFO] [TRAIN] Epoch 5 Loss: 0.9532
+[2025-07-08 15:20:45,476] [INFO] [FIT] Local training finished. Avg Loss: 0.9549
+[2025-07-08 15:21:12,575] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:14,482] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:14,671] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:14,816] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:14,895] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:14,911] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:14,914] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:14,914] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:21:16,771] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:19,675] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:19,730] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:19,786] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:19,977] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:20,276] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:20,377] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:20,478] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:20,926] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:22,275] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:21:26,370] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 15:22:31,917] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 15:22:33,882] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:23:18,696] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:18,791] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:18,802] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:18,818] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:20,334] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:20,431] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:20,548] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:20,919] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:21,320] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:21,454] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:23:22,835] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:23,041] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:23,142] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:23,198] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:23,256] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:23,886] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:23,941] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:23,998] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:23:26,972] [INFO] [EVALUATE] Dice WT: 0.6261
+[2025-07-08 15:23:41,820] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 15:23:44,983] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:23:45,075] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit0.conv.bias corrupted: mean=6.1335896361924824e-09, std=4.505562571921473e-07
+[2025-07-08 15:23:45,075] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit1.conv.bias corrupted: mean=2.9431612702524035e-09, std=5.758671477451571e-07
+[2025-07-08 15:24:29,767] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:24:30,204] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:24:30,873] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:24:30,974] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:24:31,091] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:24:31,103] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:24:31,103] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:24:31,105] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:25:39,683] [INFO] [TRAIN] Epoch 1 Loss: 0.9546
+[2025-07-08 15:26:24,293] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:26:24,384] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:26:24,873] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:26:24,881] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:26:24,895] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:26:24,909] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:26:24,988] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:26:24,994] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:27:29,376] [INFO] [TRAIN] Epoch 2 Loss: 0.9533
+[2025-07-08 15:27:58,996] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:28:00,922] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:28:01,094] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:28:03,511] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:28:03,517] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:28:03,702] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:28:03,970] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:28:07,480] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:06,904] [INFO] [TRAIN] Epoch 3 Loss: 0.9520
+[2025-07-08 15:29:36,993] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:37,086] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:39,593] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:40,296] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:40,604] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:40,605] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:40,605] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:29:40,678] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:30:44,311] [INFO] [TRAIN] Epoch 4 Loss: 0.9509
+[2025-07-08 15:31:22,600] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:31:22,973] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:31:23,399] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:31:23,502] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:31:23,713] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:31:23,776] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:31:23,886] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:31:24,195] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:25,783] [INFO] [TRAIN] Epoch 5 Loss: 0.9497
+[2025-07-08 15:32:25,784] [INFO] [FIT] Local training finished. Avg Loss: 0.9521
+[2025-07-08 15:32:58,539] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:58,573] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:58,882] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:58,916] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:59,188] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:59,306] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:59,306] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:32:59,370] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:33:01,409] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:01,984] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:02,203] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:02,386] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:02,495] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:02,599] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:02,695] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:02,785] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:03,881] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:04,686] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:33:07,623] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 15:33:56,732] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 15:34:01,074] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:34:42,842] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:46,337] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:48,774] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:48,777] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:48,848] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:48,874] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:48,877] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:48,881] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:34:51,445] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:51,790] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:51,987] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:52,263] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:52,430] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:52,547] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:52,605] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:52,660] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:53,591] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:53,647] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:34:57,931] [INFO] [EVALUATE] Dice WT: 0.6852
+[2025-07-08 15:35:01,335] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 15:35:04,883] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:35:04,977] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit0.conv.bias corrupted: mean=-4.21041956855106e-09, std=5.15844135406951e-07
+[2025-07-08 15:35:04,978] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit1.conv.bias corrupted: mean=-1.936797566770565e-08, std=5.325824758983799e-07
+[2025-07-08 15:35:56,896] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:35:57,021] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:35:57,075] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:35:57,583] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:35:57,675] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:35:57,677] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:35:57,698] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:35:57,789] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:05,327] [INFO] [TRAIN] Epoch 1 Loss: 0.9516
+[2025-07-08 15:37:44,187] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:49,305] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:49,446] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:50,097] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:50,731] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:51,234] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:51,478] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:37:52,115] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:38:53,605] [INFO] [TRAIN] Epoch 2 Loss: 0.9496
+[2025-07-08 15:39:26,814] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:39:28,274] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:39:30,196] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:39:30,784] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:39:31,422] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:39:31,473] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:39:31,707] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:39:32,214] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:31,000] [INFO] [TRAIN] Epoch 3 Loss: 0.9482
+[2025-07-08 15:40:53,888] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:55,215] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:58,778] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:58,997] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:59,004] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:59,071] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:59,075] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:40:59,077] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:41:58,776] [INFO] [TRAIN] Epoch 4 Loss: 0.9467
+[2025-07-08 15:42:23,914] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:42:23,916] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:42:26,609] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:42:26,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:42:26,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:42:26,675] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:42:26,681] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:42:26,681] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:27,414] [INFO] [TRAIN] Epoch 5 Loss: 0.9450
+[2025-07-08 15:43:27,416] [INFO] [FIT] Local training finished. Avg Loss: 0.9482
+[2025-07-08 15:43:50,430] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:51,296] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:52,221] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:53,498] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:55,410] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:55,413] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:56,675] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:56,788] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:43:59,949] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:00,075] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:00,131] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:00,340] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:00,409] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:00,477] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:00,533] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:00,589] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:02,549] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:02,674] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:44:06,791] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 15:45:07,900] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 15:45:12,678] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:45:57,838] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:45:58,615] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:45:58,634] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:45:58,875] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:45:59,209] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:45:59,285] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:45:59,506] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:45:59,511] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:46:04,449] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:04,574] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:04,764] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:04,966] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:05,195] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:05,429] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:05,649] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:05,876] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:06,540] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:06,655] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:46:12,221] [INFO] [EVALUATE] Dice WT: 0.7873
+[2025-07-08 15:46:17,862] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 15:46:22,779] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:46:22,785] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit0.conv.bias corrupted: mean=-5.8376013356564727e-08, std=9.200936119668768e-07
+[2025-07-08 15:47:08,699] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:47:08,700] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:47:08,775] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:47:08,880] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:47:09,073] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:47:09,074] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:47:09,083] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:47:09,179] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:11,378] [INFO] [TRAIN] Epoch 1 Loss: 0.9475
+[2025-07-08 15:48:57,996] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:58,628] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:58,629] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:58,704] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:59,021] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:59,298] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:59,370] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:48:59,377] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:02,730] [INFO] [TRAIN] Epoch 2 Loss: 0.9453
+[2025-07-08 15:50:49,656] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:50,076] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:50,516] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:50,753] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:50,770] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:50,816] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:51,019] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:50:51,121] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:51:57,055] [INFO] [TRAIN] Epoch 3 Loss: 0.9433
+[2025-07-08 15:52:45,296] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:52:45,300] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:52:45,893] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:52:46,000] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:52:46,002] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:52:46,484] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:52:46,490] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:52:46,499] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:53:53,778] [INFO] [TRAIN] Epoch 4 Loss: 0.9414
+[2025-07-08 15:54:39,479] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:54:41,588] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:54:41,590] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:54:41,909] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:54:41,913] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:54:42,176] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:54:42,183] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:54:42,183] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:55:43,672] [INFO] [TRAIN] Epoch 5 Loss: 0.9393
+[2025-07-08 15:55:43,673] [INFO] [FIT] Local training finished. Avg Loss: 0.9434
+[2025-07-08 15:56:15,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:16,511] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:17,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:17,419] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:18,478] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:19,376] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:19,420] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:19,421] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:19,834] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:56:20,372] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:22,377] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:22,432] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:22,487] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:22,918] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:22,984] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:23,040] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:23,100] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:23,155] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:56:26,006] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 15:57:16,574] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 15:57:22,072] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:58:08,785] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:08,889] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:09,537] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:10,785] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:11,475] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:11,482] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:11,494] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:11,512] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:58:13,525] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:13,686] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:15,679] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:15,784] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:15,919] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:16,028] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:16,183] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:16,306] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:16,429] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:16,573] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 15:58:19,532] [INFO] [EVALUATE] Dice WT: 0.8265
+[2025-07-08 15:58:24,193] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 15:58:28,281] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 15:58:28,377] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit0.conv.bias corrupted: mean=1.4540000847773626e-07, std=8.181315251931665e-07
+[2025-07-08 15:58:28,377] [ERROR] [MODEL PARAMETER ERROR] Layer model.1.submodule.1.submodule.1.submodule.1.submodule.conv.unit1.conv.bias corrupted: mean=2.3817054994879072e-09, std=9.452086828787287e-07
+[2025-07-08 15:59:16,869] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:59:18,010] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:59:18,985] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:59:19,113] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:59:19,176] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:59:19,281] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:59:19,700] [INFO] Model initialized on device: cuda:0
+[2025-07-08 15:59:19,773] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:00:24,540] [INFO] [TRAIN] Epoch 1 Loss: 0.9424
+[2025-07-08 16:01:01,371] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:01:02,275] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:01:02,787] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:01:03,581] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:01:04,005] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:01:07,191] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:01:07,806] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:01:09,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:07,602] [INFO] [TRAIN] Epoch 2 Loss: 0.9399
+[2025-07-08 16:02:33,690] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:37,293] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:39,683] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:39,704] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:39,821] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:39,905] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:39,977] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:02:40,107] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:03:39,400] [INFO] [TRAIN] Epoch 3 Loss: 0.9376
+[2025-07-08 16:04:10,993] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:04:13,188] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:04:13,474] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:04:13,474] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:04:13,589] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:04:13,670] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:04:13,672] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:04:13,695] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:14,276] [INFO] [TRAIN] Epoch 4 Loss: 0.9351
+[2025-07-08 16:05:44,714] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:46,970] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:46,974] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:47,792] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:49,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:49,220] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:49,806] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:05:49,813] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:06:50,574] [INFO] [TRAIN] Epoch 5 Loss: 0.9322
+[2025-07-08 16:06:50,575] [INFO] [FIT] Local training finished. Avg Loss: 0.9374
+[2025-07-08 16:07:21,798] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:23,763] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:24,359] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:24,578] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:25,227] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:25,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:28,220] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:28,356] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:28,420] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:29,164] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:07:32,010] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:32,076] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:32,131] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:32,187] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:32,242] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:32,297] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:32,352] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:32,406] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:07:35,429] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 16:08:24,013] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 16:08:25,990] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:09:19,535] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:19,975] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:20,418] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:20,570] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:20,589] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:20,594] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:20,595] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:20,598] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:09:26,071] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:26,293] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:26,523] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:26,751] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:26,915] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:27,094] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:27,298] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:27,444] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:27,842] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:27,921] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:09:34,309] [INFO] [EVALUATE] Dice WT: 0.8522
+[2025-07-08 16:09:37,991] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 16:09:42,280] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:10:30,126] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:10:31,770] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:10:32,670] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:10:32,674] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:10:32,884] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:10:32,901] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:10:32,970] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:10:32,970] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:11:36,592] [INFO] [TRAIN] Epoch 1 Loss: 0.9362
+[2025-07-08 16:12:09,577] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:12:10,772] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:12:11,808] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:12:13,980] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:12:15,179] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:12:16,601] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:12:16,609] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:12:16,637] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:13,478] [INFO] [TRAIN] Epoch 2 Loss: 0.9328
+[2025-07-08 16:13:42,777] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:43,007] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:45,279] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:45,418] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:46,181] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:46,182] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:46,289] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:13:46,293] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:14:42,379] [INFO] [TRAIN] Epoch 3 Loss: 0.9306
+[2025-07-08 16:15:04,289] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:15:06,521] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:15:10,071] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:15:10,670] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:15:10,674] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:15:10,699] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:15:10,773] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:15:10,776] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:09,530] [INFO] [TRAIN] Epoch 4 Loss: 0.9273
+[2025-07-08 16:16:33,782] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:37,103] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:37,192] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:37,206] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:37,372] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:37,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:37,387] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:16:37,387] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:17:37,506] [INFO] [TRAIN] Epoch 5 Loss: 0.9236
+[2025-07-08 16:17:37,508] [INFO] [FIT] Local training finished. Avg Loss: 0.9301
+[2025-07-08 16:18:03,375] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:05,917] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:06,000] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:06,073] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:06,076] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:06,077] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:06,079] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:06,085] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:06,085] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:18:11,678] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:12,285] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:12,341] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:12,477] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:12,678] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:12,878] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:12,978] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:13,071] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:14,648] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:18:18,209] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 16:19:20,269] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 16:19:25,086] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:20:14,967] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:15,773] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:15,816] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:16,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:16,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:16,186] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:16,275] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:16,387] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:20:20,979] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:21,035] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:21,118] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:21,319] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:21,599] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:21,841] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:22,097] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:22,336] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:23,083] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:23,138] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:20:28,438] [INFO] [EVALUATE] Dice WT: 0.8763
+[2025-07-08 16:20:34,416] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 16:20:38,484] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:21:23,694] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:21:24,182] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:21:24,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:21:24,389] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:21:24,389] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:21:24,710] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:21:24,774] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:21:24,786] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:22:33,514] [INFO] [TRAIN] Epoch 1 Loss: 0.9286
+[2025-07-08 16:23:07,581] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:23:14,772] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:23:14,907] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:23:14,907] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:23:14,975] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:23:15,192] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:23:15,199] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:23:15,203] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:14,273] [INFO] [TRAIN] Epoch 2 Loss: 0.9250
+[2025-07-08 16:24:49,775] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:51,600] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:52,674] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:52,886] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:53,889] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:53,996] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:54,588] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:24:54,609] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:25:56,472] [INFO] [TRAIN] Epoch 3 Loss: 0.9210
+[2025-07-08 16:26:35,225] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:26:37,199] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:26:37,376] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:26:37,492] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:26:38,002] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:26:38,177] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:26:38,576] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:26:38,980] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:27:38,670] [INFO] [TRAIN] Epoch 4 Loss: 0.9173
+[2025-07-08 16:28:20,585] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:28:20,625] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:28:20,671] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:28:20,982] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:28:21,479] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:28:21,785] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:28:22,079] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:28:22,080] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:29:24,172] [INFO] [TRAIN] Epoch 5 Loss: 0.9134
+[2025-07-08 16:29:24,174] [INFO] [FIT] Local training finished. Avg Loss: 0.9211
+[2025-07-08 16:30:03,667] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:04,041] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:04,083] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:04,609] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:05,725] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:06,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:06,281] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:06,302] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:30:09,218] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:09,383] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:09,499] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:10,061] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:10,118] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:10,173] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:10,228] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:10,344] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:11,350] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:11,420] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:30:15,665] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 16:31:00,156] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 16:31:02,173] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:31:55,209] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:31:56,075] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:31:56,092] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:31:56,186] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:31:56,197] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:31:56,302] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:31:56,311] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:31:56,376] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:32:00,377] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:01,791] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:01,952] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:02,149] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:02,339] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:02,591] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:02,790] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:02,911] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:03,030] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:03,582] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:32:09,429] [INFO] [EVALUATE] Dice WT: 0.8937
+[2025-07-08 16:32:14,278] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 16:32:19,073] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:33:06,888] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:33:07,292] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:33:07,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:33:07,378] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:33:07,387] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:33:07,396] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:33:07,416] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:33:07,473] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:07,329] [INFO] [TRAIN] Epoch 1 Loss: 0.9198
+[2025-07-08 16:34:44,170] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:46,299] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:48,173] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:49,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:49,781] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:49,781] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:50,877] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:34:52,881] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:35:51,478] [INFO] [TRAIN] Epoch 2 Loss: 0.9147
+[2025-07-08 16:36:22,910] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:36:26,575] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:36:27,616] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:36:27,973] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:36:28,180] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:36:28,191] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:36:28,278] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:36:28,426] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:37:26,921] [INFO] [TRAIN] Epoch 3 Loss: 0.9105
+[2025-07-08 16:37:56,907] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:38:01,609] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:38:02,105] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:38:02,393] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:38:02,407] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:38:02,576] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:38:02,587] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:38:02,587] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:00,977] [INFO] [TRAIN] Epoch 4 Loss: 0.9057
+[2025-07-08 16:39:29,592] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:29,901] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:33,199] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:33,708] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:33,709] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:33,783] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:33,792] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:39:33,792] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:32,581] [INFO] [TRAIN] Epoch 5 Loss: 0.9014
+[2025-07-08 16:40:32,582] [INFO] [FIT] Local training finished. Avg Loss: 0.9104
+[2025-07-08 16:40:54,001] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:55,184] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:55,916] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:58,393] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:58,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:58,411] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:58,413] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:40:58,413] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:41:01,932] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:01,987] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:02,065] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:02,120] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:02,176] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:02,230] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:02,285] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:02,345] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:03,815] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:03,870] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:41:06,928] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 16:41:52,310] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 16:41:54,182] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:42:39,010] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:39,227] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:39,238] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:39,401] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:39,528] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:39,649] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:39,896] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:39,901] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:42:41,825] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:42,051] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:42,118] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:42,781] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:42,837] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:42,892] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:42,947] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:43,002] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:43,876] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:43,984] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:42:47,099] [INFO] [EVALUATE] Dice WT: 0.8940
+[2025-07-08 16:42:59,550] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 16:43:04,775] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:43:53,336] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:43:53,339] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:43:53,681] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:43:54,118] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:43:54,174] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:43:54,380] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:43:54,474] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:43:54,475] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:00,487] [INFO] [TRAIN] Epoch 1 Loss: 0.9087
+[2025-07-08 16:45:50,966] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:50,998] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:51,050] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:51,109] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:52,077] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:52,109] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:52,171] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:45:52,270] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:46:59,173] [INFO] [TRAIN] Epoch 2 Loss: 0.9023
+[2025-07-08 16:47:45,688] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:47:45,707] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:47:46,075] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:47:46,507] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:47:46,982] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:47:46,986] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:47:46,986] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:47:46,986] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:48:48,539] [INFO] [TRAIN] Epoch 3 Loss: 0.8970
+[2025-07-08 16:49:19,485] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:49:21,614] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:49:21,808] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:49:22,025] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:49:23,091] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:49:23,578] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:49:30,083] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:49:30,186] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:50:29,073] [INFO] [TRAIN] Epoch 4 Loss: 0.8916
+[2025-07-08 16:51:08,099] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:51:08,705] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:51:08,772] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:51:08,777] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:51:08,779] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:51:08,801] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:51:08,805] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:51:08,805] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:08,024] [INFO] [TRAIN] Epoch 5 Loss: 0.8861
+[2025-07-08 16:52:08,025] [INFO] [FIT] Local training finished. Avg Loss: 0.8971
+[2025-07-08 16:52:31,433] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:32,547] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:33,082] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:33,095] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:33,102] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:33,108] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:33,116] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:33,116] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:52:35,818] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:35,884] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:36,327] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:36,383] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:36,438] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:36,493] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:36,551] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:36,606] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:38,084] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:38,141] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:52:40,322] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 16:53:23,336] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 16:53:26,778] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:54:16,235] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:16,653] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:17,381] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:17,383] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:17,585] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:17,610] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:17,610] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:17,671] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:54:22,334] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:22,820] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:23,062] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:23,316] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:23,562] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:23,800] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:24,023] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:24,245] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:24,462] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:24,704] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 16:54:30,506] [INFO] [EVALUATE] Dice WT: 0.8867
+[2025-07-08 16:54:34,161] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 16:54:37,172] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 16:55:26,963] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:55:27,498] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:55:27,600] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:55:27,633] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:55:27,797] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:55:27,987] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:55:28,282] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:55:28,407] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:56:37,072] [INFO] [TRAIN] Epoch 1 Loss: 0.8951
+[2025-07-08 16:57:16,206] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:57:17,882] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:57:17,900] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:57:18,274] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:57:18,297] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:57:18,300] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:57:18,301] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:57:18,302] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:58:23,407] [INFO] [TRAIN] Epoch 2 Loss: 0.8882
+[2025-07-08 16:58:54,305] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:58:54,318] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:58:54,997] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:58:58,994] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:59:03,091] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:59:03,094] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:59:03,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 16:59:03,394] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:02,013] [INFO] [TRAIN] Epoch 3 Loss: 0.8816
+[2025-07-08 17:00:29,986] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:31,786] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:32,819] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:32,880] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:38,094] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:38,198] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:39,687] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:00:40,488] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:01:40,223] [INFO] [TRAIN] Epoch 4 Loss: 0.8750
+[2025-07-08 17:02:06,291] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:02:07,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:02:10,084] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:02:10,095] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:02:10,212] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:02:10,807] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:02:11,092] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:02:17,403] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:11,410] [INFO] [TRAIN] Epoch 5 Loss: 0.8676
+[2025-07-08 17:03:11,411] [INFO] [FIT] Local training finished. Avg Loss: 0.8815
+[2025-07-08 17:03:30,828] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:31,154] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:31,419] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:31,909] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:32,683] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:32,776] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:33,052] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:33,070] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:03:34,408] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:34,464] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:35,621] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:35,692] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:35,756] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:35,828] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:35,917] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:35,992] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:36,539] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:36,637] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:03:39,195] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 17:04:27,795] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 17:04:30,283] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:05:10,770] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:12,630] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:13,541] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:13,670] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:13,901] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:14,032] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:14,446] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:15,015] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:05:17,119] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:17,176] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:17,693] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:17,749] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:17,805] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:17,862] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:17,972] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:18,030] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:19,407] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:19,526] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:05:22,791] [INFO] [EVALUATE] Dice WT: 0.8890
+[2025-07-08 17:05:32,101] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 17:05:35,487] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:06:16,134] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:06:21,967] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:06:23,476] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:06:24,005] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:06:24,277] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:06:24,283] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:06:24,672] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:06:24,674] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:07:27,172] [INFO] [TRAIN] Epoch 1 Loss: 0.8799
+[2025-07-08 17:08:03,886] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:08:07,514] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:08:08,213] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:08:09,375] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:08:09,480] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:08:10,101] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:08:10,107] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:08:11,590] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:07,946] [INFO] [TRAIN] Epoch 2 Loss: 0.8712
+[2025-07-08 17:09:34,879] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:35,989] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:38,813] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:38,819] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:38,819] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:40,078] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:40,173] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:09:40,181] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:10:39,176] [INFO] [TRAIN] Epoch 3 Loss: 0.8627
+[2025-07-08 17:11:10,874] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:11:11,476] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:11:11,506] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:11:12,209] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:11:12,209] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:11:12,277] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:11:12,296] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:11:12,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:12,630] [INFO] [TRAIN] Epoch 4 Loss: 0.8543
+[2025-07-08 17:12:56,244] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:56,463] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:56,615] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:56,755] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:57,327] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:57,683] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:57,726] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:12:58,316] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:13:59,826] [INFO] [TRAIN] Epoch 5 Loss: 0.8462
+[2025-07-08 17:13:59,827] [INFO] [FIT] Local training finished. Avg Loss: 0.8629
+[2025-07-08 17:14:46,233] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:46,585] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:46,956] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:47,100] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:47,132] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:47,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:47,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:48,474] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:14:51,495] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:51,579] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:51,636] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:52,129] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:52,184] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:52,271] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:52,326] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:52,382] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:54,515] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:54,604] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:14:57,770] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 17:15:45,582] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 17:15:48,894] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:16:35,918] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:35,921] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:36,281] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:36,310] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:36,310] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:36,789] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:36,809] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:36,906] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:16:40,147] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:40,279] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:40,549] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:40,605] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:40,661] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:40,718] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:40,772] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:40,828] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:42,190] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:42,246] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:16:44,361] [INFO] [EVALUATE] Dice WT: 0.8970
+[2025-07-08 17:16:48,540] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 17:16:51,282] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:17:42,802] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:17:42,880] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:17:43,038] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:17:43,192] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:17:43,528] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:17:43,825] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:17:44,281] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:17:44,318] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:18:49,451] [INFO] [TRAIN] Epoch 1 Loss: 0.8605
+[2025-07-08 17:19:32,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:19:32,494] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:19:33,078] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:19:33,284] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:19:33,719] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:19:33,814] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:19:34,113] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:19:35,017] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:20:35,178] [INFO] [TRAIN] Epoch 2 Loss: 0.8493
+[2025-07-08 17:21:20,658] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:21:20,799] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:21:20,923] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:21:21,151] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:21:21,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:21:21,275] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:21:22,208] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:21:22,272] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:22:22,624] [INFO] [TRAIN] Epoch 3 Loss: 0.8392
+[2025-07-08 17:23:02,619] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:23:02,670] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:23:02,722] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:23:02,799] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:23:03,105] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:23:03,618] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:23:03,712] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:23:03,773] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:01,433] [INFO] [TRAIN] Epoch 4 Loss: 0.8296
+[2025-07-08 17:24:33,577] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:33,675] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:33,815] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:33,816] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:33,876] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:33,890] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:33,898] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:24:33,899] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:25:35,006] [INFO] [TRAIN] Epoch 5 Loss: 0.8199
+[2025-07-08 17:25:35,007] [INFO] [FIT] Local training finished. Avg Loss: 0.8397
+[2025-07-08 17:26:07,786] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:07,873] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:08,020] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:08,277] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:08,311] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:08,419] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:08,419] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:08,479] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:26:13,578] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:13,775] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:14,086] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:14,279] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:14,485] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:14,684] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:14,772] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:14,877] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:16,674] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:16,730] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:26:20,670] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 17:27:16,875] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 17:27:21,183] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:28:06,806] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:07,010] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:07,429] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:07,429] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:07,600] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:07,626] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:07,746] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:08,208] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:28:11,316] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:11,459] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:11,550] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:11,670] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:11,794] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:11,923] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:12,053] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:12,178] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:13,185] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:13,239] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:28:15,726] [INFO] [EVALUATE] Dice WT: 0.8994
+[2025-07-08 17:28:19,609] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 17:28:23,571] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:29:14,623] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:29:15,041] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:29:15,041] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:29:15,394] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:29:15,618] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:29:15,818] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:29:15,875] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:29:16,088] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:30:20,238] [INFO] [TRAIN] Epoch 1 Loss: 0.8381
+[2025-07-08 17:31:05,911] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:31:05,937] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:31:06,059] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:31:06,205] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:31:06,407] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:31:07,831] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:31:07,838] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:31:08,023] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:06,779] [INFO] [TRAIN] Epoch 2 Loss: 0.8233
+[2025-07-08 17:32:42,492] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:42,518] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:42,574] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:42,611] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:42,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:42,684] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:42,692] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:32:42,692] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:33:42,076] [INFO] [TRAIN] Epoch 3 Loss: 0.8122
+[2025-07-08 17:34:14,611] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:34:14,681] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:34:14,777] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:34:14,833] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:34:14,836] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:34:14,836] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:34:14,870] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:34:14,872] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:15,376] [INFO] [TRAIN] Epoch 4 Loss: 0.8000
+[2025-07-08 17:35:45,120] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:45,122] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:45,282] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:45,288] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:45,310] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:45,498] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:45,584] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:35:46,089] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:36:45,302] [INFO] [TRAIN] Epoch 5 Loss: 0.7876
+[2025-07-08 17:36:45,303] [INFO] [FIT] Local training finished. Avg Loss: 0.8122
+[2025-07-08 17:37:13,224] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:13,372] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:13,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:13,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:13,418] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:13,476] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:13,476] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:13,479] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:37:18,373] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:19,173] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:19,277] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:19,373] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:19,428] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:19,519] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:19,577] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:19,632] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:21,778] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:21,977] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:37:26,273] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 17:38:26,278] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 17:38:30,587] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:39:17,139] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:17,241] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:17,372] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:17,375] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:17,410] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:17,503] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:17,506] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:17,515] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:39:21,881] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:22,309] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:22,501] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:22,696] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:22,819] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:22,949] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:23,072] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:23,198] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:23,680] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:23,985] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:39:28,060] [INFO] [EVALUATE] Dice WT: 0.9000
+[2025-07-08 17:39:31,182] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 17:39:33,482] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:40:25,846] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:40:27,097] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:40:27,174] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:40:27,388] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:40:27,412] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:40:27,412] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:40:27,503] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:40:27,505] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:41:32,112] [INFO] [TRAIN] Epoch 1 Loss: 0.8104
+[2025-07-08 17:42:20,872] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:42:21,377] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:42:21,395] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:42:21,396] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:42:21,398] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:42:21,400] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:42:21,404] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:42:21,508] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:43:26,744] [INFO] [TRAIN] Epoch 2 Loss: 0.7938
+[2025-07-08 17:44:14,871] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:44:15,506] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:44:16,084] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:44:16,097] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:44:16,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:44:16,395] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:44:16,503] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:44:16,506] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:45:18,722] [INFO] [TRAIN] Epoch 3 Loss: 0.7815
+[2025-07-08 17:46:01,229] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:46:01,925] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:46:02,357] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:46:02,410] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:46:02,876] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:46:03,075] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:46:03,093] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:46:03,146] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:04,976] [INFO] [TRAIN] Epoch 4 Loss: 0.7653
+[2025-07-08 17:47:42,775] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:42,886] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:42,911] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:42,923] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:42,928] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:43,006] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:43,171] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:47:43,183] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:48:42,937] [INFO] [TRAIN] Epoch 5 Loss: 0.7501
+[2025-07-08 17:48:42,970] [INFO] [FIT] Local training finished. Avg Loss: 0.7802
+[2025-07-08 17:49:22,914] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:23,034] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:23,119] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:23,587] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:23,588] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:23,612] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:23,683] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:23,694] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:49:27,178] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:27,783] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:27,889] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:27,944] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:28,114] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:28,227] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:28,296] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:28,458] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:29,845] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:29,900] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:49:33,711] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 17:50:24,574] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 17:50:29,782] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:51:18,268] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:18,912] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:19,028] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:19,105] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:19,120] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:19,482] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:19,588] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:19,679] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:51:24,776] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:24,833] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:24,940] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:25,009] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:25,171] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:25,412] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:25,641] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:25,861] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:26,864] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:26,923] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 17:51:31,844] [INFO] [EVALUATE] Dice WT: 0.9156
+[2025-07-08 17:51:38,255] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 17:51:42,678] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 17:52:27,103] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:52:28,282] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:52:29,487] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:52:29,506] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:52:29,576] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:52:29,672] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:52:29,870] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:52:29,876] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:53:34,071] [INFO] [TRAIN] Epoch 1 Loss: 0.7818
+[2025-07-08 17:54:02,582] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:54:03,384] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:54:05,616] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:54:12,875] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:54:13,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:54:13,181] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:54:13,216] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:54:13,277] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:12,437] [INFO] [TRAIN] Epoch 2 Loss: 0.7599
+[2025-07-08 17:55:41,974] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:44,074] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:48,384] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:48,882] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:48,907] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:49,322] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:49,373] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:55:49,872] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:56:52,025] [INFO] [TRAIN] Epoch 3 Loss: 0.7430
+[2025-07-08 17:57:22,298] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:57:22,383] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:57:23,882] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:57:23,911] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:57:28,675] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:57:29,778] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:57:29,875] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:57:30,981] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:58:27,584] [INFO] [TRAIN] Epoch 4 Loss: 0.7271
+[2025-07-08 17:59:03,825] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:59:04,090] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:59:06,070] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:59:06,180] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:59:06,210] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:59:06,270] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:59:06,272] [INFO] Model initialized on device: cuda:0
+[2025-07-08 17:59:06,276] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:03,986] [INFO] [TRAIN] Epoch 5 Loss: 0.7083
+[2025-07-08 18:00:03,987] [INFO] [FIT] Local training finished. Avg Loss: 0.7440
+[2025-07-08 18:00:24,232] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:24,696] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:25,035] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:25,123] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:25,747] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:25,764] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:25,798] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:25,896] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:00:27,311] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:28,397] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:28,636] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:28,728] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:28,786] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:28,841] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:28,896] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:28,977] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:29,979] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:30,700] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:00:33,045] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 18:01:17,134] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 18:01:20,479] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:02:07,298] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:09,109] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:09,583] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:09,674] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:09,682] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:09,791] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:09,975] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:09,986] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:02:13,079] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:14,345] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:14,533] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:14,722] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:14,909] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:15,032] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:15,154] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:15,209] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:15,302] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:15,972] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:02:20,108] [INFO] [EVALUATE] Dice WT: 0.9243
+[2025-07-08 18:02:23,277] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 18:02:26,584] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:03:12,989] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:03:13,145] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:03:13,200] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:03:14,139] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:03:14,331] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:03:14,474] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:03:14,678] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:03:14,931] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:16,373] [INFO] [TRAIN] Epoch 1 Loss: 0.7453
+[2025-07-08 18:04:57,263] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:57,789] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:57,900] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:57,939] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:58,211] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:58,247] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:58,390] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:04:58,437] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:05:58,909] [INFO] [TRAIN] Epoch 2 Loss: 0.7204
+[2025-07-08 18:06:36,725] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:06:36,770] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:06:36,812] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:06:36,970] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:06:37,111] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:06:37,379] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:06:37,393] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:06:37,394] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:07:33,783] [INFO] [TRAIN] Epoch 3 Loss: 0.7028
+[2025-07-08 18:08:05,214] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:08:05,386] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:08:05,422] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:08:05,887] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:08:05,906] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:08:06,018] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:08:06,020] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:08:06,020] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:06,217] [INFO] [TRAIN] Epoch 4 Loss: 0.6808
+[2025-07-08 18:09:37,446] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:37,701] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:37,879] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:37,879] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:38,288] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:38,385] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:38,402] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:09:38,402] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:10:43,577] [INFO] [TRAIN] Epoch 5 Loss: 0.6615
+[2025-07-08 18:10:43,578] [INFO] [FIT] Local training finished. Avg Loss: 0.7022
+[2025-07-08 18:11:20,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:20,218] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:20,374] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:20,509] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:20,521] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:20,722] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:20,774] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:20,774] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:11:25,310] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:25,893] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:26,034] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:26,164] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:26,298] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:26,428] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:26,558] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:26,690] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:27,322] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:27,979] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:11:33,262] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 18:12:26,881] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 18:12:30,381] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:13:20,242] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:20,446] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:20,973] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:20,973] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:21,273] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:21,277] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:21,298] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:21,310] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:13:25,102] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:26,006] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:26,924] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:27,145] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:27,366] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:27,592] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:27,820] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:28,037] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:28,252] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:28,440] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:13:33,596] [INFO] [EVALUATE] Dice WT: 0.9382
+[2025-07-08 18:13:39,587] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 18:13:43,178] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:14:28,419] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:14:29,647] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:14:29,649] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:14:29,792] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:14:30,477] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:14:32,481] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:14:32,777] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:14:32,899] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:15:32,680] [INFO] [TRAIN] Epoch 1 Loss: 0.7073
+[2025-07-08 18:16:12,205] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:16:12,211] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:16:12,269] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:16:13,457] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:16:15,477] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:16:16,570] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:16:17,509] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:16:18,924] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:18,179] [INFO] [TRAIN] Epoch 2 Loss: 0.6778
+[2025-07-08 18:17:46,920] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:47,581] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:49,170] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:51,006] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:51,177] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:51,780] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:51,787] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:17:51,814] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:18:49,628] [INFO] [TRAIN] Epoch 3 Loss: 0.6575
+[2025-07-08 18:19:14,784] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:19:17,296] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:19:17,483] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:19:17,577] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:19:17,593] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:19:17,593] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:19:17,601] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:19:17,604] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:19,125] [INFO] [TRAIN] Epoch 4 Loss: 0.6426
+[2025-07-08 18:20:47,585] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:47,678] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:48,878] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:48,892] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:48,971] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:48,971] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:48,979] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:20:48,980] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:21:48,874] [INFO] [TRAIN] Epoch 5 Loss: 0.6180
+[2025-07-08 18:21:48,876] [INFO] [FIT] Local training finished. Avg Loss: 0.6606
+[2025-07-08 18:22:19,990] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:20,023] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:20,375] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:20,377] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:20,379] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:20,379] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:20,614] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:20,692] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:22:25,382] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:25,677] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:25,881] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:26,645] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:26,716] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:26,776] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:26,833] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:26,902] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:28,241] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:28,474] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:22:33,328] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 18:23:28,980] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 18:23:31,975] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:24:12,214] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:13,230] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:17,076] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:17,873] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:17,931] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:19,588] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:19,677] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:20,429] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:20,808] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:21,076] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:24:23,741] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:23,817] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:23,872] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:23,948] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:24,003] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:24,058] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:24,113] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:24,168] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:24:26,368] [INFO] [EVALUATE] Dice WT: 0.9291
+[2025-07-08 18:24:32,146] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 18:24:35,676] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:25:27,075] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:25:27,137] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:25:27,481] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:25:28,077] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:25:28,205] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:25:28,207] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:25:28,209] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:25:28,213] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:26:33,225] [INFO] [TRAIN] Epoch 1 Loss: 0.6686
+[2025-07-08 18:27:22,976] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:27:22,989] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:27:23,404] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:27:23,425] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:27:23,593] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:27:23,682] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:27:24,090] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:27:24,277] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:28:26,921] [INFO] [TRAIN] Epoch 2 Loss: 0.6351
+[2025-07-08 18:29:10,089] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:29:10,149] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:29:10,257] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:29:10,327] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:29:10,353] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:29:10,502] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:29:11,173] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:29:11,185] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:09,935] [INFO] [TRAIN] Epoch 3 Loss: 0.6109
+[2025-07-08 18:30:48,270] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:48,973] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:48,985] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:48,995] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:49,020] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:49,073] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:49,074] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:30:49,074] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:31:49,078] [INFO] [TRAIN] Epoch 4 Loss: 0.5888
+[2025-07-08 18:32:27,502] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:32:27,882] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:32:27,904] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:32:27,973] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:32:27,996] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:32:28,111] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:32:28,177] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:32:28,177] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:33:30,544] [INFO] [TRAIN] Epoch 5 Loss: 0.5669
+[2025-07-08 18:33:30,571] [INFO] [FIT] Local training finished. Avg Loss: 0.6141
+[2025-07-08 18:34:10,563] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:10,602] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:10,716] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:10,988] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:11,374] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:11,385] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:11,686] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:11,926] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:34:15,602] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:15,715] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:15,770] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:15,825] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:15,880] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:15,935] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:15,993] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:16,072] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:17,784] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:18,007] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:34:21,944] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 18:35:09,856] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 18:35:11,879] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:36:06,005] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:06,045] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:06,141] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:06,201] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:06,332] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:06,693] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:06,999] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:07,006] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:36:11,283] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:11,814] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:11,992] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:12,156] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:12,391] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:12,640] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:12,887] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:13,071] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:13,482] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:13,600] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:36:17,975] [INFO] [EVALUATE] Dice WT: 0.9112
+[2025-07-08 18:36:22,101] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 18:36:24,885] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:37:15,512] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:37:15,567] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:37:15,637] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:37:16,237] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:37:16,470] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:37:16,700] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:37:17,073] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:37:17,081] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:38:21,876] [INFO] [TRAIN] Epoch 1 Loss: 0.6276
+[2025-07-08 18:39:06,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:39:06,791] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:39:06,861] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:39:06,868] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:39:06,912] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:39:07,031] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:39:07,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:39:11,377] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:09,595] [INFO] [TRAIN] Epoch 2 Loss: 0.5921
+[2025-07-08 18:40:48,937] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:49,284] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:49,965] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:50,020] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:50,028] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:50,053] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:51,211] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:40:51,302] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:41:51,172] [INFO] [TRAIN] Epoch 3 Loss: 0.5717
+[2025-07-08 18:42:24,202] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:42:25,897] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:42:26,189] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:42:26,305] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:42:26,385] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:42:26,402] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:42:26,407] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:42:26,410] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:26,837] [INFO] [TRAIN] Epoch 4 Loss: 0.5441
+[2025-07-08 18:43:56,615] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:56,976] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:57,094] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:57,379] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:57,384] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:57,581] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:57,774] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:43:57,976] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:44:59,572] [INFO] [TRAIN] Epoch 5 Loss: 0.5186
+[2025-07-08 18:44:59,575] [INFO] [FIT] Local training finished. Avg Loss: 0.5708
+[2025-07-08 18:45:35,215] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:35,289] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:35,331] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:35,672] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:35,672] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:35,689] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:35,806] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:35,873] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:45:40,776] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:40,892] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:41,019] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:41,184] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:41,337] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:41,480] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:41,604] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:41,717] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:42,881] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:42,971] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:45:48,044] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 18:46:38,968] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 18:46:41,582] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:47:33,923] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:33,937] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:34,812] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:34,875] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:34,885] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:34,906] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:34,993] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:35,170] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:47:38,573] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:40,277] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:40,392] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:40,599] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:40,828] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:41,048] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:41,279] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:41,451] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:41,873] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:42,243] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:47:48,240] [INFO] [EVALUATE] Dice WT: 0.9496
+[2025-07-08 18:47:51,611] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 18:47:56,077] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:48:44,468] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:48:45,214] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:48:45,598] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:48:45,612] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:48:45,783] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:48:45,790] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:48:45,808] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:48:45,811] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:49:50,750] [INFO] [TRAIN] Epoch 1 Loss: 0.5895
+[2025-07-08 18:50:35,645] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:50:35,922] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:50:35,974] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:50:37,872] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:50:37,880] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:50:38,999] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:50:39,018] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:50:39,292] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:51:37,304] [INFO] [TRAIN] Epoch 2 Loss: 0.5478
+[2025-07-08 18:52:10,077] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:52:11,516] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:52:11,517] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:52:12,813] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:52:12,874] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:52:12,919] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:52:13,421] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:52:13,701] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:11,075] [INFO] [TRAIN] Epoch 3 Loss: 0.5218
+[2025-07-08 18:53:35,872] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:38,185] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:38,274] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:38,408] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:38,483] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:38,512] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:38,512] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:53:38,512] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:54:37,970] [INFO] [TRAIN] Epoch 4 Loss: 0.4997
+[2025-07-08 18:55:04,114] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:55:06,595] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:55:06,693] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:55:06,696] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:55:06,707] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:55:06,777] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:55:06,778] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:55:06,779] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:08,231] [INFO] [TRAIN] Epoch 5 Loss: 0.4783
+[2025-07-08 18:56:08,232] [INFO] [FIT] Local training finished. Avg Loss: 0.5274
+[2025-07-08 18:56:41,618] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:42,175] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:42,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:42,472] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:42,503] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:42,507] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:42,511] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:42,514] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:56:48,165] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:48,290] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:48,417] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:48,537] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:48,592] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:48,647] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:48,722] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:48,788] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:50,130] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:50,186] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:56:55,080] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 18:57:46,492] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 18:57:48,480] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:58:37,507] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:37,668] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:37,792] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:37,811] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:38,055] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:38,811] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:38,914] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:38,989] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:58:40,621] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:42,635] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:42,786] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:42,914] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:43,085] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:43,214] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:43,337] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:43,485] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:43,873] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:45,452] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 18:58:49,754] [INFO] [EVALUATE] Dice WT: 0.9198
+[2025-07-08 18:58:54,583] [INFO] [FIT] Received parameters. Starting local training...
+[2025-07-08 18:58:59,785] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 18:59:49,620] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:59:49,689] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:59:50,018] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:59:50,104] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:59:50,277] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:59:50,909] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:59:50,913] [INFO] Model initialized on device: cuda:0
+[2025-07-08 18:59:50,978] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:00:52,376] [INFO] [TRAIN] Epoch 1 Loss: 0.5558
+[2025-07-08 19:01:31,429] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:01:31,443] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:01:31,626] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:01:31,632] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:01:31,673] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:01:31,674] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:01:31,679] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:01:31,687] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:28,378] [INFO] [TRAIN] Epoch 2 Loss: 0.5064
+[2025-07-08 19:02:58,020] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:58,211] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:58,293] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:58,325] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:58,374] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:58,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:58,406] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:02:58,407] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:03:56,176] [INFO] [TRAIN] Epoch 3 Loss: 0.4835
+[2025-07-08 19:04:23,111] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:04:23,484] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:04:23,514] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:04:24,086] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:04:24,095] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:04:24,096] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:04:24,105] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:04:24,107] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:24,177] [INFO] [TRAIN] Epoch 4 Loss: 0.4579
+[2025-07-08 19:05:53,579] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:53,590] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:53,677] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:53,681] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:53,699] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:53,702] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:53,705] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:05:53,706] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:06:49,823] [INFO] [TRAIN] Epoch 5 Loss: 0.4334
+[2025-07-08 19:06:49,824] [INFO] [FIT] Local training finished. Avg Loss: 0.4874
+[2025-07-08 19:07:21,208] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:21,477] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:21,572] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:21,679] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:21,684] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:21,684] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:21,684] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:21,684] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:07:27,681] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:27,777] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:28,777] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:28,833] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:28,901] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:28,978] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:29,033] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:29,088] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:30,483] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:30,676] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:07:35,522] [INFO] [FIT] Final model saved to: Run_UNET_R3IID20%_fedWSOcompC32_20250708/Client3/model_final.pth
+[2025-07-08 19:09:40,651] [INFO] [EVALUATE] Starting evaluation...
+[2025-07-08 19:09:43,581] [INFO] [DEBUG] Loaded compressed decoded weights.
+[2025-07-08 19:10:33,632] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:33,891] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:33,974] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:34,110] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:34,602] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:34,684] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:34,713] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:34,771] [INFO] Model initialized on device: cuda:0
+[2025-07-08 19:10:39,969] [DEBUG] [TEST] Batch 1 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:40,047] [DEBUG] [TEST] Batch 2 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:40,255] [DEBUG] [TEST] Batch 3 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:40,493] [DEBUG] [TEST] Batch 4 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:40,733] [DEBUG] [TEST] Batch 5 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:40,979] [DEBUG] [TEST] Batch 6 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:41,231] [DEBUG] [TEST] Batch 7 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:41,477] [DEBUG] [TEST] Batch 8 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:42,208] [DEBUG] [TEST] Batch 9 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:42,263] [DEBUG] [TEST] Batch 10 | Pred shape: torch.Size([256, 256, 160]) | Label shape: torch.Size([256, 256, 160])
+[2025-07-08 19:10:48,460] [INFO] [EVALUATE] Dice WT: 0.9034

@@ -1,0 +1,263 @@
+[2026-01-24 10:41:23,169] [INFO] [SERVER INIT] EXPERIMENT_DIR=Revision2/Run_UNET_IID_Fedavg_20260124, LOG=Revision2/Run_UNET_IID_Fedavg_20260124/Server/ServerReport20260124.log
+[2026-01-24 10:41:23,171] [INFO] [ENV] SERVER_ADDRESS=127.0.0.1, SERVER_PORT=8089, DATA_PATH=/home/jovyan/FeTS2022/MICCAI_FeTS2022_TrainingData, ENCODING_MODE=FEDAVG, N_CLUSTERS=32
+[2026-01-24 10:41:23,283] [INFO] [DATA] Server test set loaded with 67 samples.
+[2026-01-24 10:41:23,590] [INFO] [MODEL INIT] UNet with 148 layers initialized on cuda
+[2026-01-24 10:41:23,632] [INFO] [STRATEGY INIT] mode=FEDAVG, UsedClusters=0 (EnvNClusters=32), experiment_dir=Revision2/Run_UNET_IID_Fedavg_20260124 | BestMetricKey=WT
+[2026-01-24 10:41:23,632] [INFO] [SERVER START] Address=127.0.0.1:8089, Rounds=25, Mode=FEDAVG, NClusters=32
+[2026-01-24 10:41:23,669] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 10:41:23,683] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 10:41:23,683] [INFO] [Server] Evaluating at round 0
+[2026-01-24 10:41:23,683] [INFO] [SERVER][Round 0] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 10:41:45,392] [INFO] [Round 0] WT Dice: 0.1107 | Time: 21.71s
+[2026-01-24 10:41:45,481] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 10:41:45,557] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round0.pth
+[2026-01-24 10:41:45,557] [INFO] [BEST MODEL] New best at round 0: WT=0.1107
+[2026-01-24 10:52:46,612] [INFO] [SERVER DEBUG] aggregate_fit called at round 1
+[2026-01-24 10:52:46,612] [INFO] [DEBUG] aggregate_fit received 4 results at round 1
+[2026-01-24 10:52:46,759] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 10:52:46,773] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 10:52:46,805] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 10:52:46,815] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 10:52:46,816] [INFO] [Server] Evaluating at round 1
+[2026-01-24 10:52:46,816] [INFO] [SERVER][Round 1] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 10:53:04,253] [INFO] [Round 1] WT Dice: 0.3483 | Time: 17.44s
+[2026-01-24 10:53:04,344] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 10:53:04,426] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round1.pth
+[2026-01-24 10:53:04,426] [INFO] [BEST MODEL] New best at round 1: WT=0.3483
+[2026-01-24 11:05:26,373] [INFO] [SERVER DEBUG] aggregate_fit called at round 2
+[2026-01-24 11:05:26,374] [INFO] [DEBUG] aggregate_fit received 4 results at round 2
+[2026-01-24 11:05:26,566] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:05:26,589] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:05:26,637] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:05:26,650] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:05:26,650] [INFO] [Server] Evaluating at round 2
+[2026-01-24 11:05:26,650] [INFO] [SERVER][Round 2] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 11:05:44,116] [INFO] [Round 2] WT Dice: 0.3150 | Time: 17.47s
+[2026-01-24 11:18:03,178] [INFO] [SERVER DEBUG] aggregate_fit called at round 3
+[2026-01-24 11:18:03,178] [INFO] [DEBUG] aggregate_fit received 4 results at round 3
+[2026-01-24 11:18:03,328] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:18:03,340] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:18:03,385] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:18:03,405] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:18:03,405] [INFO] [Server] Evaluating at round 3
+[2026-01-24 11:18:03,405] [INFO] [SERVER][Round 3] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 11:18:20,951] [INFO] [Round 3] WT Dice: 0.3816 | Time: 17.55s
+[2026-01-24 11:18:21,045] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 11:18:21,120] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round3.pth
+[2026-01-24 11:18:21,120] [INFO] [BEST MODEL] New best at round 3: WT=0.3816
+[2026-01-24 11:31:07,765] [INFO] [SERVER DEBUG] aggregate_fit called at round 4
+[2026-01-24 11:31:07,766] [INFO] [DEBUG] aggregate_fit received 4 results at round 4
+[2026-01-24 11:31:07,914] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:31:07,925] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:31:07,957] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:31:07,967] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:31:07,968] [INFO] [Server] Evaluating at round 4
+[2026-01-24 11:31:07,968] [INFO] [SERVER][Round 4] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 11:31:25,121] [INFO] [Round 4] WT Dice: 0.2991 | Time: 17.15s
+[2026-01-24 11:43:36,826] [INFO] [SERVER DEBUG] aggregate_fit called at round 5
+[2026-01-24 11:43:36,826] [INFO] [DEBUG] aggregate_fit received 4 results at round 5
+[2026-01-24 11:43:37,002] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:43:37,016] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:43:37,048] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:43:37,061] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:43:37,062] [INFO] [Server] Evaluating at round 5
+[2026-01-24 11:43:37,062] [INFO] [SERVER][Round 5] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 11:43:54,250] [INFO] [Round 5] WT Dice: 0.2821 | Time: 17.19s
+[2026-01-24 11:57:49,329] [INFO] [SERVER DEBUG] aggregate_fit called at round 6
+[2026-01-24 11:57:49,329] [INFO] [DEBUG] aggregate_fit received 4 results at round 6
+[2026-01-24 11:57:49,466] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:57:49,483] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:57:49,513] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 11:57:49,526] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 11:57:49,526] [INFO] [Server] Evaluating at round 6
+[2026-01-24 11:57:49,526] [INFO] [SERVER][Round 6] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 11:58:06,675] [INFO] [Round 6] WT Dice: 0.3014 | Time: 17.15s
+[2026-01-24 12:11:06,364] [INFO] [SERVER DEBUG] aggregate_fit called at round 7
+[2026-01-24 12:11:06,365] [INFO] [DEBUG] aggregate_fit received 4 results at round 7
+[2026-01-24 12:11:06,500] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:11:06,513] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:11:06,542] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:11:06,553] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:11:06,553] [INFO] [Server] Evaluating at round 7
+[2026-01-24 12:11:06,553] [INFO] [SERVER][Round 7] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 12:11:24,020] [INFO] [Round 7] WT Dice: 0.2858 | Time: 17.47s
+[2026-01-24 12:24:00,651] [INFO] [SERVER DEBUG] aggregate_fit called at round 8
+[2026-01-24 12:24:00,651] [INFO] [DEBUG] aggregate_fit received 4 results at round 8
+[2026-01-24 12:24:00,757] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:24:00,773] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:24:00,807] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:24:00,818] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:24:00,819] [INFO] [Server] Evaluating at round 8
+[2026-01-24 12:24:00,819] [INFO] [SERVER][Round 8] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 12:24:18,236] [INFO] [Round 8] WT Dice: 0.2755 | Time: 17.42s
+[2026-01-24 12:36:49,134] [INFO] [SERVER DEBUG] aggregate_fit called at round 9
+[2026-01-24 12:36:49,135] [INFO] [DEBUG] aggregate_fit received 4 results at round 9
+[2026-01-24 12:36:49,261] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:36:49,275] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:36:49,302] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:36:49,312] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:36:49,313] [INFO] [Server] Evaluating at round 9
+[2026-01-24 12:36:49,313] [INFO] [SERVER][Round 9] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 12:37:06,779] [INFO] [Round 9] WT Dice: 0.2703 | Time: 17.47s
+[2026-01-24 12:49:27,820] [INFO] [SERVER DEBUG] aggregate_fit called at round 10
+[2026-01-24 12:49:27,820] [INFO] [DEBUG] aggregate_fit received 4 results at round 10
+[2026-01-24 12:49:27,958] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:49:27,969] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:49:28,019] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 12:49:28,036] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 12:49:28,037] [INFO] [Server] Evaluating at round 10
+[2026-01-24 12:49:28,037] [INFO] [SERVER][Round 10] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 12:49:45,418] [INFO] [Round 10] WT Dice: 0.8851 | Time: 17.38s
+[2026-01-24 12:49:45,509] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 12:49:45,573] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round10.pth
+[2026-01-24 12:49:45,573] [INFO] [BEST MODEL] New best at round 10: WT=0.8851
+[2026-01-24 13:03:06,395] [INFO] [SERVER DEBUG] aggregate_fit called at round 11
+[2026-01-24 13:03:06,396] [INFO] [DEBUG] aggregate_fit received 4 results at round 11
+[2026-01-24 13:03:06,542] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:03:06,555] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:03:06,595] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:03:06,609] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:03:06,610] [INFO] [Server] Evaluating at round 11
+[2026-01-24 13:03:06,610] [INFO] [SERVER][Round 11] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 13:03:24,260] [INFO] [Round 11] WT Dice: 0.4695 | Time: 17.65s
+[2026-01-24 13:16:11,426] [INFO] [SERVER DEBUG] aggregate_fit called at round 12
+[2026-01-24 13:16:11,427] [INFO] [DEBUG] aggregate_fit received 4 results at round 12
+[2026-01-24 13:16:11,580] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:16:11,593] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:16:11,639] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:16:11,649] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:16:11,650] [INFO] [Server] Evaluating at round 12
+[2026-01-24 13:16:11,650] [INFO] [SERVER][Round 12] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 13:16:29,173] [INFO] [Round 12] WT Dice: 0.4389 | Time: 17.52s
+[2026-01-24 13:29:54,078] [INFO] [SERVER DEBUG] aggregate_fit called at round 13
+[2026-01-24 13:29:54,079] [INFO] [DEBUG] aggregate_fit received 4 results at round 13
+[2026-01-24 13:29:54,208] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:29:54,219] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:29:54,244] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:29:54,255] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:29:54,255] [INFO] [Server] Evaluating at round 13
+[2026-01-24 13:29:54,255] [INFO] [SERVER][Round 13] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 13:30:11,898] [INFO] [Round 13] WT Dice: 0.7542 | Time: 17.64s
+[2026-01-24 13:42:59,074] [INFO] [SERVER DEBUG] aggregate_fit called at round 14
+[2026-01-24 13:42:59,075] [INFO] [DEBUG] aggregate_fit received 4 results at round 14
+[2026-01-24 13:42:59,184] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:42:59,195] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:42:59,225] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:42:59,235] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:42:59,235] [INFO] [Server] Evaluating at round 14
+[2026-01-24 13:42:59,235] [INFO] [SERVER][Round 14] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 13:43:16,635] [INFO] [Round 14] WT Dice: 0.7367 | Time: 17.40s
+[2026-01-24 13:55:59,296] [INFO] [SERVER DEBUG] aggregate_fit called at round 15
+[2026-01-24 13:55:59,297] [INFO] [DEBUG] aggregate_fit received 4 results at round 15
+[2026-01-24 13:55:59,420] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:55:59,430] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:55:59,455] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 13:55:59,465] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 13:55:59,466] [INFO] [Server] Evaluating at round 15
+[2026-01-24 13:55:59,466] [INFO] [SERVER][Round 15] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 13:56:16,519] [INFO] [Round 15] WT Dice: 0.8926 | Time: 17.05s
+[2026-01-24 13:56:16,608] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 13:56:16,684] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round15.pth
+[2026-01-24 13:56:16,684] [INFO] [BEST MODEL] New best at round 15: WT=0.8926
+[2026-01-24 14:09:29,226] [INFO] [SERVER DEBUG] aggregate_fit called at round 16
+[2026-01-24 14:09:29,227] [INFO] [DEBUG] aggregate_fit received 4 results at round 16
+[2026-01-24 14:09:29,350] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:09:29,359] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:09:29,386] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:09:29,397] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:09:29,397] [INFO] [Server] Evaluating at round 16
+[2026-01-24 14:09:29,397] [INFO] [SERVER][Round 16] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 14:09:46,537] [INFO] [Round 16] WT Dice: 0.9779 | Time: 17.14s
+[2026-01-24 14:09:46,608] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 14:09:46,675] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round16.pth
+[2026-01-24 14:09:46,675] [INFO] [BEST MODEL] New best at round 16: WT=0.9779
+[2026-01-24 14:22:53,693] [INFO] [SERVER DEBUG] aggregate_fit called at round 17
+[2026-01-24 14:22:53,693] [INFO] [DEBUG] aggregate_fit received 4 results at round 17
+[2026-01-24 14:22:53,806] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:22:53,816] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:22:53,841] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:22:53,852] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:22:53,852] [INFO] [Server] Evaluating at round 17
+[2026-01-24 14:22:53,852] [INFO] [SERVER][Round 17] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 14:23:10,936] [INFO] [Round 17] WT Dice: 0.9822 | Time: 17.08s
+[2026-01-24 14:23:11,017] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 14:23:11,084] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round17.pth
+[2026-01-24 14:23:11,084] [INFO] [BEST MODEL] New best at round 17: WT=0.9822
+[2026-01-24 14:36:25,076] [INFO] [SERVER DEBUG] aggregate_fit called at round 18
+[2026-01-24 14:36:25,077] [INFO] [DEBUG] aggregate_fit received 4 results at round 18
+[2026-01-24 14:36:25,189] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:36:25,198] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:36:25,222] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:36:25,232] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:36:25,232] [INFO] [Server] Evaluating at round 18
+[2026-01-24 14:36:25,232] [INFO] [SERVER][Round 18] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 14:36:42,100] [INFO] [Round 18] WT Dice: 0.9907 | Time: 16.87s
+[2026-01-24 14:36:42,188] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 14:36:42,267] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round18.pth
+[2026-01-24 14:36:42,267] [INFO] [BEST MODEL] New best at round 18: WT=0.9907
+[2026-01-24 14:49:00,072] [INFO] [SERVER DEBUG] aggregate_fit called at round 19
+[2026-01-24 14:49:00,072] [INFO] [DEBUG] aggregate_fit received 4 results at round 19
+[2026-01-24 14:49:00,192] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:49:00,202] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:49:00,225] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 14:49:00,235] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 14:49:00,236] [INFO] [Server] Evaluating at round 19
+[2026-01-24 14:49:00,236] [INFO] [SERVER][Round 19] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 14:49:17,217] [INFO] [Round 19] WT Dice: 0.9856 | Time: 16.98s
+[2026-01-24 15:02:40,233] [INFO] [SERVER DEBUG] aggregate_fit called at round 20
+[2026-01-24 15:02:40,233] [INFO] [DEBUG] aggregate_fit received 4 results at round 20
+[2026-01-24 15:02:40,338] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:02:40,348] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:02:40,382] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:02:40,393] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:02:40,394] [INFO] [Server] Evaluating at round 20
+[2026-01-24 15:02:40,394] [INFO] [SERVER][Round 20] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 15:02:57,390] [INFO] [Round 20] WT Dice: 0.9932 | Time: 17.00s
+[2026-01-24 15:02:57,479] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model.pth
+[2026-01-24 15:02:57,550] [INFO] [BEST MODEL] Saved: Revision2/Run_UNET_IID_Fedavg_20260124/Server/best_model_round20.pth
+[2026-01-24 15:02:57,551] [INFO] [BEST MODEL] New best at round 20: WT=0.9932
+[2026-01-24 15:15:32,077] [INFO] [SERVER DEBUG] aggregate_fit called at round 21
+[2026-01-24 15:15:32,078] [INFO] [DEBUG] aggregate_fit received 4 results at round 21
+[2026-01-24 15:15:32,199] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:15:32,212] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:15:32,242] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:15:32,254] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:15:32,255] [INFO] [Server] Evaluating at round 21
+[2026-01-24 15:15:32,255] [INFO] [SERVER][Round 21] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 15:15:49,541] [INFO] [Round 21] WT Dice: 0.9911 | Time: 17.29s
+[2026-01-24 15:28:36,770] [INFO] [SERVER DEBUG] aggregate_fit called at round 22
+[2026-01-24 15:28:36,771] [INFO] [DEBUG] aggregate_fit received 4 results at round 22
+[2026-01-24 15:28:36,889] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:28:36,900] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:28:36,931] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:28:36,942] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:28:36,942] [INFO] [Server] Evaluating at round 22
+[2026-01-24 15:28:36,942] [INFO] [SERVER][Round 22] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 15:28:54,223] [INFO] [Round 22] WT Dice: 0.9841 | Time: 17.28s
+[2026-01-24 15:42:38,681] [INFO] [SERVER DEBUG] aggregate_fit called at round 23
+[2026-01-24 15:42:38,681] [INFO] [DEBUG] aggregate_fit received 4 results at round 23
+[2026-01-24 15:42:38,803] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:42:38,815] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:42:38,846] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:42:38,857] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:42:38,857] [INFO] [Server] Evaluating at round 23
+[2026-01-24 15:42:38,857] [INFO] [SERVER][Round 23] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 15:42:57,080] [INFO] [Round 23] WT Dice: 0.9854 | Time: 18.22s
+[2026-01-24 15:56:16,700] [INFO] [SERVER DEBUG] aggregate_fit called at round 24
+[2026-01-24 15:56:16,701] [INFO] [DEBUG] aggregate_fit received 4 results at round 24
+[2026-01-24 15:56:16,814] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:56:16,824] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:56:16,853] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 15:56:16,864] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 15:56:16,865] [INFO] [Server] Evaluating at round 24
+[2026-01-24 15:56:16,865] [INFO] [SERVER][Round 24] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 15:56:36,362] [INFO] [Round 24] WT Dice: 0.9852 | Time: 19.50s
+[2026-01-24 16:09:19,615] [INFO] [SERVER DEBUG] aggregate_fit called at round 25
+[2026-01-24 16:09:19,616] [INFO] [DEBUG] aggregate_fit received 4 results at round 25
+[2026-01-24 16:09:19,722] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 16:09:19,732] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 16:09:19,754] [INFO] [DEBUG][SERVER] Model expects 148 layers
+[2026-01-24 16:09:19,763] [INFO] [DEBUG] Loaded 148 of 148 layers
+[2026-01-24 16:09:19,764] [INFO] [Server] Evaluating at round 25
+[2026-01-24 16:09:19,764] [INFO] [SERVER][Round 25] Starting evaluation (mode=FEDAVG)...
+[2026-01-24 16:09:36,922] [INFO] [Round 25] WT Dice: 0.9922 | Time: 17.16s
