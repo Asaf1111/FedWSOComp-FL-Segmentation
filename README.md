@@ -28,8 +28,7 @@ FeTSxFedWSO/
 ├── brats.py
 ├── data_analysis.ipynb
 │
-├── clients/
-│ └── BrainTumorSegmentation3dClient/
+├── clients/BrainTumorSegmentation3dClient/
 │ ├── ClientImpl.py
 │ ├── loading_utils.py
 │ ├── utils.py
